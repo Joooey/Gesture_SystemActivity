@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnapproachrecord"
+        android:background="@drawable/yuanjiao_1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="lighter"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnapartrecord"
+        android:background="@drawable/yuanjiao_1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:text="darker"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btncirclerecord"
+        android:background="@drawable/yuanjiao_1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:text="volume up"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnclickrecord"
+        android:background="@drawable/yuanjiao_1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:text="volume down"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnfliprecord"
+        android:background="@drawable/yuanjiao_1"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:text="close page"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#99CCFF"
+        android:textSize="20dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Copyright © 2018.04 NUAA_Geature"
+        android:textColor="#99CCFF" />
+
+</LinearLayout>
